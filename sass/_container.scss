@@ -1,0 +1,17 @@
+.container {
+  width: 144rem;
+  height: 82.1rem;
+  overflow: hidden;
+
+  &__inner {
+    margin-top: -34rem;
+    margin-left: 40rem;
+
+    width: 128rem;
+    height: 83.2rem;
+
+    display: grid;
+    grid-template-columns: repeat(3, 55rem);
+    transform: rotate(45deg);
+  }
+}

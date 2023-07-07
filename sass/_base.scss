@@ -1,0 +1,37 @@
+// COLORS
+$color-pure-black: #000;
+$color-shadow-button: rgba(57, 47, 90, 0.85);
+$color-transparent-black: rgba(0, 0, 0, 0.65);
+$color-shadow: rgba(0, 0, 0, 0.5);
+$color-shadow-text: rgba(0, 0, 0, 0.25);
+
+$color-purple: rgb(57, 47, 90);
+$color-yellow: #f4d06f;
+$color-orange: #ff8811;
+$color-white: #fff8f0;
+$color-light-blue: #9dd9d2;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+
+  font-family: "lato", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  line-height: 1.4;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: $color-transparent-black;
+}

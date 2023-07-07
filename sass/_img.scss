@@ -1,0 +1,79 @@
+.img {
+  width: 15rem;
+  height: 15rem;
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  mask-image: url(imgs/mask-big.png);
+  mask-size: 100%;
+  mask-position: center;
+
+  -webkit-mask-image: url(imgs/mask-big.png);
+  -webkit-mask-size: 100%;
+  -webkit-mask-position: center;
+
+  transform: rotate(-45deg);
+
+  &__card {
+    &-2 {
+      height: 37rem;
+      width: 37rem;
+
+      margin-left: 14rem;
+
+      background-image: url(imgs/citrus-tree.jpg);
+      background-size: 170%;
+    }
+
+    &-3 {
+      &-1 {
+        background-image: url(imgs/fruits-in-crates.jpg);
+        background-size: 120%;
+      }
+
+      &-2 {
+        background-image: url(imgs/oranges-in-bag.jpg);
+        background-size: 100%;
+      }
+    }
+
+    &-4 {
+      &-1 {
+        background-image: url(imgs/lime.jpg);
+        background-size: 100%;
+      }
+
+      &-2 {
+        background-image: url(imgs/lemon.jpg);
+        background-size: 150%;
+      }
+
+      &-3 {
+        background-image: url(imgs/grapefruit.jpg);
+        background-size: 150%;
+      }
+    }
+
+    &-5 {
+      &-1 {
+        background-image: url(imgs/mount-fuji.jpg);
+        background-size: 170%;
+      }
+
+      &-2 {
+        background-image: url(imgs/citrus-tree-2.jpg);
+        background-size: 100%;
+      }
+    }
+
+    &-8 {
+      width: 23rem;
+      height: 23rem;
+
+      background-image: url(imgs/sliced-oranges.jpg);
+      background-size: 170%;
+    }
+  }
+}

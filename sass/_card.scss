@@ -1,0 +1,214 @@
+.card {
+  margin: 2rem;
+  border-radius: 4rem;
+  box-shadow: -1rem 0.4rem 1.5rem $color-shadow;
+  width: 50rem;
+  height: 50rem;
+
+  &-1 {
+    background-color: $color-purple;
+  }
+
+  &-2 {
+    background-color: $color-light-blue;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    &__text {
+      transform: rotate(-45deg);
+      margin-top: -9.5rem;
+      margin-left: -7.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+
+      &__full {
+        font-size: 4rem;
+        font-family: "leckerli one", sans-serif;
+        color: rgba($color-pure-black, 0.9);
+        margin-left: 20rem;
+        display: flex;
+        flex-direction: column;
+      }
+
+      &__company-name {
+        font-size: 7rem;
+        margin-left: 12rem;
+        font-family: "leckerli one", sans-serif;
+        color: $color-pure-black;
+      }
+
+      &__header {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-left: -1rem;
+
+        &-2 {
+          padding-left: 8rem;
+        }
+
+        &-3 {
+          padding-left: 13rem;
+        }
+      }
+    }
+  }
+
+  &-3 {
+    background-color: $color-orange;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    &__imgs {
+      margin-left: 34rem;
+      margin-top: -19.5rem;
+      display: flex;
+      flex-direction: column;
+      align-self: flex-start;
+      gap: 1.5rem;
+    }
+
+    &__text {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      width: 29.3rem;
+      margin-left: 7.5rem;
+      margin-top: -1rem;
+
+      transform: rotate(-45deg);
+
+      &__header {
+        font-size: 5rem;
+        font-family: "leckerli one", sans-serif;
+        color: $color-white;
+        text-shadow: 0 0.4rem 0.4rem $color-shadow-text;
+
+        &-body {
+          color: $color-white;
+        }
+      }
+    }
+  }
+
+  &-4 {
+    background-color: $color-yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+
+    &__buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      align-items: flex-end;
+      margin-right: 3rem;
+      margin-top: -1rem;
+    }
+
+    &__imgs {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin-top: -14rem;
+    }
+
+    &__text {
+      display: flex;
+      flex-direction: column;
+      width: 33.6rem;
+      transform: rotate(-45deg);
+      padding-top: 6rem;
+      margin-left: -2rem;
+      margin-top: -6rem;
+
+      &__header {
+        text-align: left;
+        height: 10rem;
+        font-size: 5rem;
+        font-family: "leckerli one", sans-serif;
+        color: $color-purple;
+        text-shadow: 0 0.4rem 0.4rem $color-shadow-text;
+
+        &-body {
+          color: #392f5a;
+          font-size: 1.4rem;
+          margin-bottom: 2.5rem;
+        }
+      }
+    }
+  }
+
+  &-5 {
+    background-color: $color-purple;
+
+    &__imgs {
+      display: flex;
+      padding: 1rem;
+      margin: 1rem;
+      gap: 1rem;
+      justify-content: right;
+    }
+
+    &__text {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 1rem;
+      width: 27rem;
+      margin-left: 1.5rem;
+      margin-top: -11.5rem;
+      transform: rotate(-45deg);
+
+      &__header {
+        text-align: center;
+        height: 10rem;
+        font-size: 5rem;
+        font-family: "leckerli one", sans-serif;
+        color: $color-yellow;
+        text-shadow: 0 0.4rem 0.4rem $color-shadow-text;
+        margin-left: 12rem;
+        margin-bottom: 3rem;
+
+        align-self: flex-start;
+
+        &-body {
+          color: $color-yellow;
+          font-size: 1.4rem;
+          width: 27rem;
+          margin-right: 20rem;
+        }
+      }
+    }
+  }
+
+  &-6 {
+    background-color: $color-light-blue;
+  }
+
+  &-7 {
+    background-color: $color-purple;
+  }
+
+  &-8 {
+    background-color: $color-orange;
+
+    &__imgs {
+      margin: 0.5rem;
+      padding: 0.5rem;
+      display: flex;
+      justify-content: left;
+      gap: 7rem;
+    }
+  }
+
+  &-9 {
+    background-color: $color-orange;
+  }
+}
